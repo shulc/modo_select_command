@@ -79,6 +79,11 @@ void TMesh::Update()
 	LayerScan.Update();
 }
 
+ILxUnknownID TMesh::ID() const
+{
+	return Mesh;
+}
+
 CLxUser_Polygon TMesh::InitPolygon()
 {
 	CLxUser_Polygon p;

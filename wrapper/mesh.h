@@ -44,6 +44,7 @@ public:
 	LXtPolygonID CreatePolygon(std::vector<LXtPointID> points, bool flip = false);
 
 	CLxMatrix4 GetTransform();
+	ILxUnknownID ID() const;
 
 	static TMarkModeList GetSetMarkMode();
 	static TMarkModeList GetClearMarkMode();
